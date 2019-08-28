@@ -4,7 +4,14 @@ import "./form.css"
 
 const Form = () => {
   return (
-    <div className="form-container">
+    // data-netlify="true" tells netlify to register form
+    <form
+      name="Contact Form"
+      method="POST"
+      data-netlify="true"
+      className="form-container"
+    >
+      <input type="hidden" name="form-name" value="Contact Form" />
       <label className="form-element">
         <span>From: </span>
         <input name="From" placeholder="From" className="form-field" />
@@ -24,7 +31,7 @@ const Form = () => {
           rows="5"
         />
       </label>
-    </div>
+    </form>
   )
 }
 

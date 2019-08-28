@@ -8,7 +8,7 @@ import Form from "../components/form"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Contact</h1>
+    <h1>Contact Form</h1>
     <Form />
 
     <Link to="/page-2/">Go to page 2</Link>
