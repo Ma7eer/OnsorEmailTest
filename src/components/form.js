@@ -31,6 +31,7 @@ const Form = () => {
           rows="5"
         />
       </label>
+      <button type="submit">Send</button>
     </form>
   )
 }
